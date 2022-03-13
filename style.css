@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+  }
+
+header{
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: 2px solid #DDDDDD;
+}
+.container{
+    color: white;
+}
+
+.header-left{
+    float: left;
+    color: #444444;
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
+}
+
+.header-right{
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #444444;
+    line-height: 36px;
+}
+
+.header-right a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.header-right a:hover{
+   color: rgba(51, 102, 255, 1);
+}
+
+.no-hover{
+    pointer-events: none;
+    background-color: rgba(51, 102, 255, 1);
+}
+
+.join-now{
+    display: inline-block;
+    width: 160px;
+    background-color: #4244E6;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.intro-container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.intro-text h1{
+    color: #444444;
+    font-family: 'Fredoka One', cursive;
+    font-size: 64px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.intro-text p{
+    font-size: 24px;
+    color: #444444;
+}
+
+.intro-img img{
+    height: 500px;
+    width: 500px;
+}
+
+.member-container{
+    background-color: #F8F8F8;
+}
+
+.member-container h1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Fredoka One', cursive;
+    color: #444444;
+}
+
+.member-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.member-content{
+    width: 500px;
+    height: 600px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: -5px -5px 50px -20px rgba(0, 0, 0, 0.25), 5px 5px 50px -20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+.member-content img{
+    display: block;
+    margin: auto;
+}
+
+.member-content h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.member-content h3{
+    font-size: 20px;
+    color: #444444;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.member-content li{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+}
+
+.form-join-container{
+    margin-bottom: 40px;
+}
+
+.form-join-container h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Fredoka One', cursive;
+    color: #444444;
+}
+
+.form-join-wrapper{
+    width:min-content;
+    margin: auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 50px -20px rgba(0, 0, 0, 0.25);
+}
+
+.box-wrapper p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-wrapper input {
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+}
+
+.box-wrapper textarea{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+}
+
+.form-join-wrapper button{
+    display: block;
+    width: 249px;
+    height: 40px;
+    margin: auto;
+    background-color: #4244E6;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-container{
+    border-top: 4px solid #DDDDDD;
+    padding: 60px;
+    height: 100px;
+}
+
+.contact-logo{
+    float: left;
+    color: #444444;
+    font-size: 48px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.contact-sosmed{
+    float: right;
+    width: 300px;
+    text-align: center;
+}
+
+.contact-sosmed h1{
+    color: #444444;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sosmed-icon img{
+    display: block;
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: #444444;
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
